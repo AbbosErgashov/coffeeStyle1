@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 940px;
+    height: 80px;
+}
+.site-header{
+    padding: 25px 0;
+}
+.header__cart-btm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92px;
+    border: none;
+    background-color: #FFFFFF; 
+    border-bottom: #A25F4B30 solid 2px;
+    padding-bottom: 4px;
+}
+.header__button-div{
+    // width: 20px;
+    // height: 18px;
+    border-radius: 50%;
+    background-color: $primari;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    
+}
+.header__logo-link{
+    display: inline-block;
+}
+.navbar__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar__link{
+    font-weight: 400;
+    font-size: 12px;
+    color: $primari;
+    letter-spacing: 2px;
+}
