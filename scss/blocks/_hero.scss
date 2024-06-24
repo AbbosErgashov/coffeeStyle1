@@ -104,6 +104,17 @@ article{
     text-align: center;
     margin-top: 35px;
     margin-bottom: 5px;
+    max-width: 300px;
+}
+.cards__h3-3{
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    max-width: 300px;
 }
 .cards__2{
     display: flex;
@@ -119,6 +130,7 @@ article{
     font-weight: 400;
     line-height: 28px;
     text-align: center;
+    max-width: 300px;
     color: #1D1F2EB2;
 }
 .price__2{
@@ -138,8 +150,130 @@ article{
     color: #1D1F2E40;
     text-decoration: line-through;
 }
+.price__12{
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    max-width: 300px;
+    color: #1D1F2E;
+}
+.price__13{
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    max-width: 300px;
+    color: #1D1F2EB2;
+    margin-top: 16px;
+}
 .article__cards-2{
     display: flex;
     gap: 15px;
+    row-gap: 50px;
     flex-wrap: wrap;
+}
+.article__h5-total2{
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 150px 0px 100px 0px;
+}
+.premium__offer{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 130px;
+}
+.coffee__mini-img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.premium__text{
+    text-align: left;
+    padding-left: 60px;
+}
+.premium__title{
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+.premium__h2{
+    font-family: Karla;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    max-width: 237px;
+    margin-bottom: 15px;
+}
+.premium__h4{
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 353px;
+    color: #1D1F2EB2;
+}
+.premium__button{
+    color: #FFFFFF;
+    background-color: #1D1F2E;
+    font-family: Karla;
+    font-size: 12px;
+    margin-top: 29.5px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 173px;
+    height: 36px;
+}
+.article__cards-3{
+    display: flex;
+    gap: 20px;
+}
+.cards3__div{
+    text-align: left;
+    margin-bottom: 200px;
+}
+.coffee__update{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+    width: 1380px;
+    height: 327px;
+    background-color:  #1D1F2E;
+    margin: auto;
+    margin-bottom: 100px;
+    display: inline-block;
+
+}
+.coffee__update-h5{
+    font-family: Karla;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 80.2px;
+}
+.coffee__update-h2{
+    font-family: Karla;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;    
 }
